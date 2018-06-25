@@ -12,9 +12,9 @@
 # -------------------------
 # Network
 # -------------------------
-node_dir=/home/ark/ark-node
-node_port=4001
-database_name=ark_mainnet
+node_dir=/home/persona/persona-mainnet
+database_name=persona_mainnet
+node_port=4102
 
 
 # -------------------------
