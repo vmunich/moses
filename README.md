@@ -11,12 +11,6 @@ bash moses.sh start
 ```
 
 
-Edit `.moses` or run `bash moses.sh config` with the network specifications:
-```
-node_dir=/home/persona/persona-mainnet
-database_name=persona_mainnet
-node_port=4102
-```
 | Setting | Network | Value
 | --- | --- | --- |
 | `node_dir` | Persona | /home/$USER/persona-mainnet
