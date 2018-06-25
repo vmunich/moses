@@ -13,10 +13,10 @@
 # ARK
 # -------------------------
 
-ark_dir=$(locate -b '\ark-node')
+ark_dir=$node_dir
 
 # -------------------------
 # Network
 # -------------------------
 
-network=$(cd $ark_dir && git symbolic-ref --short -q HEAD)
+network=$database_name
