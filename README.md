@@ -1,4 +1,4 @@
-# moses ~ Automated Snapshots for [ArkEcosystem/ark-node](https://github.com/ArkEcosystem/ark-node)
+# moses ~ Automated Snapshots for Ark Forks
 
 ## Installation
 
