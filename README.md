@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/faustbrian/moses
+git clone https://github.com/vmunich/moses
 cd ~/moses
 bash moses.sh config
 bash moses.sh install
