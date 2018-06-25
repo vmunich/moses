@@ -5,6 +5,7 @@
 ```bash
 git clone https://github.com/faustbrian/moses
 cd ~/moses
+bash moses.sh config
 bash moses.sh install
 bash moses.sh start
 ```
