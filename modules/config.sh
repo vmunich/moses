@@ -24,7 +24,7 @@ setup_environment()
 
 check_configuration()
 {
-    if [[ $network != 'mainnet' && $network != 'devnet' ]]; then
-        abort 1 "network [$network] is invalid."
+    if [[ $database_name == '' && $node_dir == '' ]]; then
+        abort 1 "Configuration is invalid."
     fi
 }
