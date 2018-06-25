@@ -11,12 +11,22 @@ bash moses.sh start
 ```
 
 
-Edit `.moses` or run `bash moses.sh config` with the network specifications.
+Edit `.moses` or run `bash moses.sh config` with the network specifications:
 ```
 node_dir=/home/ark/ark-node
 database_name=ark_mainnet
 node_port=4001
 ```
+| Setting | Network | Value
+| --- | --- | --- |
+| `node_dir` | Persona | /home/$USER/persona-mainnet
+| `database_name` | Persona | persona_mainnet
+| `node_port` | Persona | 4102
+| `node_dir` | Kapu | /home/$USER/kapu-node
+| `database_name` | Kapu | kapu_mainnet
+| `node_port` | Kapu | 9700
+
+Replace `$USER` with your server's username.
 
 ## Security
 
