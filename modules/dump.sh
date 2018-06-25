@@ -31,6 +31,9 @@ moses_dump()
 
     # move new snapshot
     mv latest $current_file
+    
+    # write the height of the last snapshot on index.html
+    curl -s http://127.0.0.1:+$node_port/api/blocks/getHeight > index.html
 
     # delete all but the 10 recent snapshots
     ls -t | tail -n +$snapshot_amount | xargs rm --
