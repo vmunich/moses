@@ -36,7 +36,7 @@ moses_dump()
     curl -s http://127.0.0.1:+$node_port/api/blocks/getHeight > index.html
 
     # delete all but the 10 recent snapshots
-    ls -t | tail -n +$snapshot_amount | xargs rm --
+    ls -t -I "*.html"| tail -n +$snapshot_amount | xargs rm --
 
     # check if we send the snapshot to a remote location
     if [[ $snapshot_remote = true ]]; then
