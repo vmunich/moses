@@ -18,6 +18,9 @@ database_name=ark_mainnet
 # Persona database_name = persona_mainnet
 # Kapu database_name = kapu_mainnet
 ```
+Don't forget to open the node's port on your server after installing:
+
+Persona Mainnet: `sudo ufw allow 4102`
 
 ## Security
 
