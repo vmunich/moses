@@ -10,12 +10,20 @@
 # ---------------------------------------------------------------------------
 
 # -------------------------
+# Network
+# -------------------------
+node_dir=/home/ark/ark-node
+database_name=ark_mainnet
+
+
+# -------------------------
 # Snapshot
 # -------------------------
 
 snapshot_dir=/var/www/html
 snapshot_amount=10
 snapshot_interval=900
+
 
 # -------------------------
 # Snapshot - Remote
