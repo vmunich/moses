@@ -14,6 +14,7 @@ Edit `.moses` or run `bash moses.sh config` with the network specifications.
 ```
 node_dir=/home/ark/ark-node
 database_name=ark_mainnet
+node_port=4001
 
 # Persona database_name = persona_mainnet
 # Kapu database_name = kapu_mainnet
