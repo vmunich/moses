@@ -15,8 +15,3 @@
 
 ark_dir=$node_dir
 
-# -------------------------
-# Network
-# -------------------------
-
-network=$database_name
