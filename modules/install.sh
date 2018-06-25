@@ -36,7 +36,7 @@ moses_install()
         sudo ufw disable
         sudo ufw allow 'Nginx HTTP'
         sudo ufw allow ssh
-        sudo ufw allow +$node_port
+        sudo ufw allow ${node_port}
         sudo ufw enable
         success "Installation OK."
     else
